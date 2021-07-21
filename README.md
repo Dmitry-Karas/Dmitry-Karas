@@ -10,7 +10,7 @@
 </h1>
 
 <h3 align="center">...but friends call me for a beer
-  <a href="https://stackoverflow.com/index.php" target="_blank"> 🍺 </a>
+  <a href="https://stackoverflow.com/index.php"> 🍺 </a>
   🙄
 </h3>
 
