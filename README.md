@@ -18,11 +18,6 @@
   <img src="./hi-there.gif">
 </div>
 
-<h4 align="center">Try to find the easter egg on the page! 🥚 🐇 </h4>
-
-<p align=center><i>tip: cold 'n foamy 😉</i></p>
-
-
 <h2 align="center">About 👉👈</h2>
 
 <br>
@@ -102,3 +97,12 @@ DmitryKaras.bio.push(...techStack, ...softSkills, ...interests)
     <img src="https://github.com/gauravghongde/social-icons/blob/master/PNG/Black/Instagram_black.png" width="32" height="32"/>
   </a>
 </div>
+
+
+<hr>
+
+<h4 align="center">Try to find the easter egg on the page! 🥚 🐇 </h4>
+
+<p align=center><i>tip: cold 'n foamy 😉</i></p>
+
+<hr>
