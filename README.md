@@ -1,11 +1,8 @@
 <div align="center">
   <img src="https://komarev.com/ghpvc/?username=dmitry-karas&color=blue">
-    <a href="https://github.com/dmitry-karas?tab=followers">
-      <img src="https://img.shields.io/github/followers/dmitry-karas.svg?style=social&label=Follow&maxAge=2592000" />
-    </a>
 </div>
 
-<h1 align="center">Hello friend! My name's Dima
+<h1 align="center">Hey friend! My name's Dima
   <img src="https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif" width="35px">
 </h1>
 
@@ -28,15 +25,20 @@ import { DmitryKaras } from 'front-end-developer'
 const techStack = [
   'HTML',
   'CSS',
-  'Sass',
+  'SASS',
   'JavaScript',
   'React',
+  'React Router',
+  'Redux',
+  'Redux Toolkit',
+  'Emotion',
   'Webpack',
   'Parcel',
   'Axios',
   'Firebase',
+  'Handlebars',
   'Git',
-  'GitHub',
+  'NPM',
   'VS Code',
   'Figma',
 ]
@@ -45,6 +47,8 @@ const softSkills = [
   'Teamwork',
   'Collaboration',
   'Communication',
+  'Responsibility',
+  'Willingness to learn',
   'Emotional intelligence',
   'Friendliness',
   'Problem solving',
