@@ -20,51 +20,76 @@
 <br>
 
 ```javascript
-import { DmitryKaras } from 'front-end-developer'
+class FrontEndDeveloper {
+  constructor(name) {
+    this.name = name;
+  }
+
+  sayHi() {
+    console.log(`Hey friend, I'm ${this.name}. Nice to meet you!`);
+  }
+}
+
+const DmitryKaras = new FrontEndDeveloper("Dmitry Karas");
 
 const techStack = [
-  'HTML',
-  'CSS',
-  'SASS',
-  'JavaScript',
-  'React',
-  'React Router',
-  'Redux',
-  'Redux Toolkit',
-  'Emotion',
-  'Webpack',
-  'Parcel',
-  'Axios',
-  'Firebase',
-  'Handlebars',
-  'Git',
-  'NPM',
-  'VS Code',
-  'Figma',
-]
+  "HTML",
+  "CSS",
+  "SASS",
+  "JavaScript",
+  "React",
+  "React Router",
+  "Redux",
+  "Redux Toolkit",
+  "Emotion",
+  "Webpack",
+  "Parcel",
+  "Axios",
+  "Firebase",
+  "Handlebars",
+  "Git",
+  "NPM",
+  "VS Code",
+  "Figma"
+];
 
 const softSkills = [
-  'Teamwork',
-  'Collaboration',
-  'Communication',
-  'Responsibility',
-  'Willingness to learn',
-  'Emotional intelligence',
-  'Friendliness',
-  'Problem solving',
-]
+  "Teamwork",
+  "Collaboration",
+  "Communication",
+  "Responsibility",
+  "Willingness to learn",
+  "Emotional intelligence",
+  "Friendliness",
+  "Problem solving"
+];
 
 const interests = [
-  'Mountain bike',
-  'Fast cars',
-  'Loud music',
-  'Fantastic movies',
-  'Acoustic guitar',
-  'Pretty girls',
-  'Cold beer',
-]
+  "Mountain bike",
+  "Fast cars",
+  "Loud music",
+  "Fantastic movies",
+  "Acoustic guitar",
+  "Pretty girls",
+  "Cold beer"
+];
 
-DmitryKaras.bio.push(...techStack, ...softSkills, ...interests)
+const contacts = {
+  phone: "+38(068)511 56 96",
+  email: "dmitrythekaras@gmail.com",
+  telegram: "@the_karas",
+  linkedIn: "linkedin.com/in/dmitry-karas/"
+};
+
+DmitryKaras.about = {
+  techStack: [...techStack],
+  softSkills: [...softSkills],
+  interests: [...interests]
+};
+
+DmitryKaras.contacts = { ...contacts };
+
+DmitryKaras.sayHi();
 ```
 
 <h2 align="center">Stats 👨‍💻</h2>
